@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Сергей Иншаков](https://htmlacademy.ru/profile/id59949).
+* Наставник: [Инна Кришталь](https://htmlacademy.ru/profile/id43485).
 
 ---
 
