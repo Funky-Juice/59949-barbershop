@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Barbershop - магазин</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header>
+    	<div class="header-logo">Barbershop</div>
+
+    	<nav class="header-menu">
+    	  <ul>
+    	    <li><a href="#info">Информация</a></li>
+    	    <li><a href="#news">Новости</a></li>
+    	    <li><a href="#price">Прайс-лист</a></li>
+    	    <li><a href="#shop"  class="header-menu-active">Магазин</a></li>
+    	    <li><a href="#contacts">Контакты</a></li>
+    	  </ul>
+    	</nav>
+
+    	<div class="header-login">
+    	  <div class="icon"></div>
+    	  <a href="#login">Вход</a>
+    	</div>
+    </header>
+
+    <main>
+      <div class="main-title">
+        <h1>Набор для путешествий "Baxter of California"</h1>
+      </div>
+
+      <div class="breadcrumbs">
+        <a href="#main">Главная</a>
+        <a href="#shop">Магазин</a>
+        <a href="#forcare">Средства для ухода</a>
+        <a href="#" class="breadcrumbs-active">Набор для путешествий "Baxter of California"</a>
+      </div>
+
+      <section class="main-left-clmn">
+
+        <!-- картинка-заглушка. сюда должно вставляться изобр-е из ".products-gallery-item .active" -->
+        <div class="products-gallery-image">
+          <img src="http://placehold.it/460x500" width="460" height="500" alt="product_img">
+        </div>
+
+        <!-- здесь дожен работать JS, к-й при нажатии ".products-gallery-item a" будет вставлять картинку из ссылки в блок ".products-gallery-image" -->
+        <div class="products-gallery-list">
+          <div class="products-gallery-item">
+            <a href="http://placehold.it/460x500">
+              <img src="http://placehold.it/140x150" width="140" height="150" alt="product_img"></a>
+          </div>
+
+          <div class="products-gallery-item">
+            <a href="http://placehold.it/460x500">
+              <img src="http://placehold.it/140x150" width="140" height="150" alt="product_img"></a>
+          </div>
+
+          <div class="products-gallery-item active">
+            <a href="http://placehold.it/460x500">
+              <img src="http://placehold.it/140x150" width="140" height="150" alt="product_img"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-right-clmn">
+        <!-- не смог придумать, как обыграть эти пункты:
+        <p>Есть в наличии</p>
+
+        <p>Артикул: Dexter-AE</p> -->
+
+        <div class="products-description">
+          <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+        </div>
+
+        <div class="products-item-buy">
+          <div class="products-item-price">2 900 руб.</div>
+          <a href="#buy">Купить</a>
+        </div>
+
+        <h2 class="products-set">В набор входят:</h2>
+
+        <div class="products-set-list">
+          <ul>
+            <li>Средство для умывания (50 мл)</li>
+            <li>Увлажняющий крем (50 мл)</li>
+            <li>Крем для бритья (50 мл)</li>
+            <li>Крем после бритья, шампунь (50 мл)</li>
+            <li>Удобная кожаная косметичка</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-contacts">
+        <p>Барбершоп "Бородинский"<br>
+          Адрес:г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
+          <a href="#map">Как нас найти?</a><br>
+          Телефон:+7(495)666-02-66</p>
+      </div>
+
+      <div class="footer-social">
+        <p>Давайте дружить!</p>
+        <ul>
+          <li class="icon icon-vk"><a href="#vk"></a></li>
+          <li class="icon icon-fb"><a href="#fb"></a></li>
+          <li class="icon icon-tw"><a href="#tw"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-developer">
+        <p>Разработано:</p>
+        <a href="#htmlacademy">htmlacademy.ru</a>
+      </div>
+    </footer>
+  </body>
+</html>
