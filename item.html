@@ -20,11 +20,8 @@
     	    <li><a href="#contacts">Контакты</a></li>
     	  </ul>
     	</nav>
-
-    	<div class="header-login">
-    	  <div class="icon"></div>
-    	  <a href="#login">Вход</a>
-    	</div>
+    	  	  
+    	<a href="#login" class="header-login">Вход</a>    	
     </header>
 
     <main>
@@ -33,43 +30,41 @@
       </div>
 
       <div class="breadcrumbs">
-        <a href="#main">Главная</a>
-        <a href="#shop">Магазин</a>
-        <a href="#forcare">Средства для ухода</a>
-        <a href="#" class="breadcrumbs-active">Набор для путешествий "Baxter of California"</a>
+        <ul>
+          <li><a href="#main">Главная</a></li>
+          <li><a href="#shop">Магазин</a></li>
+          <li><a href="#forcare">Средства для ухода</a></li>
+          <li><a href="#" class="breadcrumbs-active">Набор для путешествий "Baxter of California"</a></li>
+        </ul>
       </div>
 
       <section class="main-left-clmn">
 
-        <!-- картинка-заглушка. сюда должно вставляться изобр-е из ".products-gallery-item .active" -->
-        <div class="products-gallery-image">
+        <!-- картинка-заглушка. сюда должно вставляться изобр-е из ".products-gallery-list .active" -->
+        <div class="products-gallery-show">
           <img src="http://placehold.it/460x500" width="460" height="500" alt="product_img">
         </div>
 
-        <!-- здесь дожен работать JS, к-й при нажатии ".products-gallery-item a" будет вставлять картинку из ссылки в блок ".products-gallery-image" -->
-        <div class="products-gallery-list">
-          <div class="products-gallery-item">
-            <a href="http://placehold.it/460x500">
+        <!-- здесь дожен работать JS, к-й при нажатии ".products-gallery-list a" будет вставлять картинку из ссылки в блок ".products-gallery-show" -->
+        <ul class="products-gallery-list">
+          <li><a href="http://placehold.it/460x500">
               <img src="http://placehold.it/140x150" width="140" height="150" alt="product_img"></a>
-          </div>
+          </li>
 
-          <div class="products-gallery-item">
-            <a href="http://placehold.it/460x500">
+          <li><a href="http://placehold.it/460x500">
               <img src="http://placehold.it/140x150" width="140" height="150" alt="product_img"></a>
-          </div>
+          </li>
 
-          <div class="products-gallery-item active">
-            <a href="http://placehold.it/460x500">
+          <li class="active"><a href="http://placehold.it/460x500">
               <img src="http://placehold.it/140x150" width="140" height="150" alt="product_img"></a>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="main-right-clmn">
-        <!-- не смог придумать, как обыграть эти пункты:
-        <p>Есть в наличии</p>
+        <div class="products-status"><p>Есть в наличии</p></div>
 
-        <p>Артикул: Dexter-AE</p> -->
+        <div class="products-article"><p>Артикул: Dexter-AE</p></div>
 
         <div class="products-description">
           <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
